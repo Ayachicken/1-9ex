@@ -3,3 +3,50 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main{
+	margin: 50px 0;
+	position: relative;
+}
+
+.article{
+	margin-right: 30px;
+	display: inline-block;
+	float: left;
+	border: 1px grey;
+}
+
+.article:last-child{
+	margin: 0;
+}
+
+.main-visual:{
+	width: 280px;
+	background-size: contain;
+	float: left;
+}
+
+.main-visual:nth-child(1){
+	background-image: url(img/flow1.jpg);
+}
+
+.main-visual:nth-child(2){
+	background-image: url(img/flow2.jpg);
+}
+
+.main-visual:nth-child(3){
+	background-image: url(img/flow3.jpg);
+}
+
+
+h1{
+	color: white;
+	background-color: orange;
+	position: absolute;
+}
