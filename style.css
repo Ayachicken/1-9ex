@@ -11,37 +11,50 @@
 }
 
 main{
+	width: 960px;
+	height: 100%;
 	margin: 50px 0;
 	position: relative;
 }
 
 .article{
+	width: 300px;
+	height: 100%;
 	margin-right: 30px;
 	display: inline-block;
 	float: left;
-	border: 1px grey;
+	border: 1px solid lightgrey;
 }
 
 .article:last-child{
 	margin: 0;
 }
 
-.main-visual:{
-	width: 280px;
-	background-size: contain;
-	float: left;
-}
-
 .main-visual:nth-child(1){
-	background-image: url(img/flow1.jpg);
+	width: 280px;
+	height: 100%;
+	margin: 10px 10px 0 10px;
+	display: inline-block;
+	background-size: contain;
+	background-image: url(img/flow1.png);
 }
 
 .main-visual:nth-child(2){
-	background-image: url(img/flow2.jpg);
+	width: 280px;
+	height: 100%;
+	margin: 10px 10px 0 10px;
+	display: inline-block;
+	background-size: contain;
+	background-image: url(img/flow2.png);
 }
 
 .main-visual:nth-child(3){
-	background-image: url(img/flow3.jpg);
+	width: 280px;
+	height: 100%;
+	margin: 10px 10px 0 10px;
+	display: inline-block;
+	background-size: contain;
+	background-image: url(img/flow3.png);
 }
 
 
